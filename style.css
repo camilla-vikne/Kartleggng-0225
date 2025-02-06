@@ -7,3 +7,34 @@
 body {
   min-height: 100svh;
 }
+img {
+  display: block;
+  max-width: 100%;
+}
+main {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.card-container {
+  background-color: hsl(240, 87%, 6%);
+  color: hsl(0, 12%, 93%);
+  display: flex;
+  max-width: 500px;
+  border-radius: 10px;
+}
+.details-container {
+  padding: 30px;
+}
+.card-details {
+  display: flex;
+  text-align: center;
+  gap: 40px;
+  /* padding: 20px 15px 20px 15px; */
+  padding-block: 20px;
+}
+.label,
+.occupation {
+  color: red;
+}
