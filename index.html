@@ -5,12 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Super Hero Card</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bangers&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <main>
       <!-- main representerer hovedelementet på siden -->
       <section class="hero-cards">
         <!-- Section representerer en generisk seksjon på siden. En section vil typisk inneholde article, aside og lignende innhold. I bunn og grunn er det en container, altså noe som har innhold. -->
+        <!-- Vi har gitt de fleste av elementene her en klasse. Klasse brukes på elementer som man gjerne har flere av, og som skal styles sammen. Dette blir ekstra tydelig på p-tags i denne filen, hvor vi har flere value og label-klasser. -->
         <article class="card-container">
           <!-- Article er en container som inneholder et fullstendig komponent på en side, som en nyhetsartikkel, en blogpost eller lignende. -->
           <figure>
@@ -38,7 +45,182 @@
               </div>
             </div>
             <div class="description">
-              <p>
+              <p class="description-text">
+                Crimefighter operating in Gotham City. Serves as the cities
+                protector, using the symbol of a bat to strike fear into the
+                hearts of criminals. No superpowers, but money.
+              </p>
+            </div>
+          </div>
+        </article>
+        <article class="card-container">
+          <!-- Article er en container som inneholder et fullstendig komponent på en side, som en nyhetsartikkel, en blogpost eller lignende. -->
+          <figure>
+            <!-- Figure er et element som brukes for å holde flow-elementer som bilder eller annen media -->
+            <img src="./image-removebg-preview.png" alt="Batman" />
+            <!-- <figcaption></figcaption> Figcaption gir en infotekst til mediet du har i figure, som gjør det lettere for en screen reader å forstå hva bildet inneholder. Denne er fin å bruke i tillegg til en alt-tekst som man skal ha. -->
+          </figure>
+          <div class="details-container">
+            <!-- Om man vil lage en div som har en klasse på en enkel måte, kan man skrive div.navn-på-klassen og trykke enter. Da vil div opprettes med en ferdig klasse. -->
+            <h1 class="name">Batman</h1>
+            <h2 class="occupation">Vigilante</h2>
+            <div class="card-details">
+              <!-- For å lage flere div med classe, kan man også bruke shortcut .item*3 , som da gir tre div som har klasse "item" -->
+              <div class="item">
+                <p class="value">35</p>
+                <p class="label">Age</p>
+              </div>
+              <div class="item">
+                <p class="value">95kg</p>
+                <p class="label">Weight</p>
+              </div>
+              <div class="item">
+                <p class="value">188cm</p>
+                <p class="label">Height</p>
+              </div>
+            </div>
+            <div class="description">
+              <p class="description-text">
+                Crimefighter operating in Gotham City. Serves as the cities
+                protector, using the symbol of a bat to strike fear into the
+                hearts of criminals. No superpowers, but money.
+              </p>
+            </div>
+          </div>
+        </article>
+        <article class="card-container">
+          <!-- Article er en container som inneholder et fullstendig komponent på en side, som en nyhetsartikkel, en blogpost eller lignende. -->
+          <figure>
+            <!-- Figure er et element som brukes for å holde flow-elementer som bilder eller annen media -->
+            <img src="./image-removebg-preview.png" alt="Batman" />
+            <!-- <figcaption></figcaption> Figcaption gir en infotekst til mediet du har i figure, som gjør det lettere for en screen reader å forstå hva bildet inneholder. Denne er fin å bruke i tillegg til en alt-tekst som man skal ha. -->
+          </figure>
+          <div class="details-container">
+            <!-- Om man vil lage en div som har en klasse på en enkel måte, kan man skrive div.navn-på-klassen og trykke enter. Da vil div opprettes med en ferdig klasse. -->
+            <h1 class="name">Batman</h1>
+            <h2 class="occupation">Vigilante</h2>
+            <div class="card-details">
+              <!-- For å lage flere div med classe, kan man også bruke shortcut .item*3 , som da gir tre div som har klasse "item" -->
+              <div class="item">
+                <p class="value">35</p>
+                <p class="label">Age</p>
+              </div>
+              <div class="item">
+                <p class="value">95kg</p>
+                <p class="label">Weight</p>
+              </div>
+              <div class="item">
+                <p class="value">188cm</p>
+                <p class="label">Height</p>
+              </div>
+            </div>
+            <div class="description">
+              <p class="description-text">
+                Crimefighter operating in Gotham City. Serves as the cities
+                protector, using the symbol of a bat to strike fear into the
+                hearts of criminals. No superpowers, but money.
+              </p>
+            </div>
+          </div>
+        </article>
+        <article class="card-container">
+          <!-- Article er en container som inneholder et fullstendig komponent på en side, som en nyhetsartikkel, en blogpost eller lignende. -->
+          <figure>
+            <!-- Figure er et element som brukes for å holde flow-elementer som bilder eller annen media -->
+            <img src="./image-removebg-preview.png" alt="Batman" />
+            <!-- <figcaption></figcaption> Figcaption gir en infotekst til mediet du har i figure, som gjør det lettere for en screen reader å forstå hva bildet inneholder. Denne er fin å bruke i tillegg til en alt-tekst som man skal ha. -->
+          </figure>
+          <div class="details-container">
+            <!-- Om man vil lage en div som har en klasse på en enkel måte, kan man skrive div.navn-på-klassen og trykke enter. Da vil div opprettes med en ferdig klasse. -->
+            <h1 class="name">Batman</h1>
+            <h2 class="occupation">Vigilante</h2>
+            <div class="card-details">
+              <!-- For å lage flere div med classe, kan man også bruke shortcut .item*3 , som da gir tre div som har klasse "item" -->
+              <div class="item">
+                <p class="value">35</p>
+                <p class="label">Age</p>
+              </div>
+              <div class="item">
+                <p class="value">95kg</p>
+                <p class="label">Weight</p>
+              </div>
+              <div class="item">
+                <p class="value">188cm</p>
+                <p class="label">Height</p>
+              </div>
+            </div>
+            <div class="description">
+              <p class="description-text">
+                Crimefighter operating in Gotham City. Serves as the cities
+                protector, using the symbol of a bat to strike fear into the
+                hearts of criminals. No superpowers, but money.
+              </p>
+            </div>
+          </div>
+        </article>
+        <article class="card-container">
+          <!-- Article er en container som inneholder et fullstendig komponent på en side, som en nyhetsartikkel, en blogpost eller lignende. -->
+          <figure>
+            <!-- Figure er et element som brukes for å holde flow-elementer som bilder eller annen media -->
+            <img src="./image-removebg-preview.png" alt="Batman" />
+            <!-- <figcaption></figcaption> Figcaption gir en infotekst til mediet du har i figure, som gjør det lettere for en screen reader å forstå hva bildet inneholder. Denne er fin å bruke i tillegg til en alt-tekst som man skal ha. -->
+          </figure>
+          <div class="details-container">
+            <!-- Om man vil lage en div som har en klasse på en enkel måte, kan man skrive div.navn-på-klassen og trykke enter. Da vil div opprettes med en ferdig klasse. -->
+            <h1 class="name">Batman</h1>
+            <h2 class="occupation">Vigilante</h2>
+            <div class="card-details">
+              <!-- For å lage flere div med classe, kan man også bruke shortcut .item*3 , som da gir tre div som har klasse "item" -->
+              <div class="item">
+                <p class="value">35</p>
+                <p class="label">Age</p>
+              </div>
+              <div class="item">
+                <p class="value">95kg</p>
+                <p class="label">Weight</p>
+              </div>
+              <div class="item">
+                <p class="value">188cm</p>
+                <p class="label">Height</p>
+              </div>
+            </div>
+            <div class="description">
+              <p class="description-text">
+                Crimefighter operating in Gotham City. Serves as the cities
+                protector, using the symbol of a bat to strike fear into the
+                hearts of criminals. No superpowers, but money.
+              </p>
+            </div>
+          </div>
+        </article>
+        <article class="card-container">
+          <!-- Article er en container som inneholder et fullstendig komponent på en side, som en nyhetsartikkel, en blogpost eller lignende. -->
+          <figure>
+            <!-- Figure er et element som brukes for å holde flow-elementer som bilder eller annen media -->
+            <img src="./image-removebg-preview.png" alt="Batman" />
+            <!-- <figcaption></figcaption> Figcaption gir en infotekst til mediet du har i figure, som gjør det lettere for en screen reader å forstå hva bildet inneholder. Denne er fin å bruke i tillegg til en alt-tekst som man skal ha. -->
+          </figure>
+          <div class="details-container">
+            <!-- Om man vil lage en div som har en klasse på en enkel måte, kan man skrive div.navn-på-klassen og trykke enter. Da vil div opprettes med en ferdig klasse. -->
+            <h1 class="name">Batman</h1>
+            <h2 class="occupation">Vigilante</h2>
+            <div class="card-details">
+              <!-- For å lage flere div med classe, kan man også bruke shortcut .item*3 , som da gir tre div som har klasse "item" -->
+              <div class="item">
+                <p class="value">35</p>
+                <p class="label">Age</p>
+              </div>
+              <div class="item">
+                <p class="value">95kg</p>
+                <p class="label">Weight</p>
+              </div>
+              <div class="item">
+                <p class="value">188cm</p>
+                <p class="label">Height</p>
+              </div>
+            </div>
+            <div class="description">
+              <p class="description-text">
                 Crimefighter operating in Gotham City. Serves as the cities
                 protector, using the symbol of a bat to strike fear into the
                 hearts of criminals. No superpowers, but money.
